@@ -1,30 +1,6 @@
-INDEX VERSION 1.127+D:\eugene\javaworks\.metadata\.plugins\org.eclipse.jdt.core
-471007804.index
-2178687962.index
-3871947587.index
-551967762.index
-1609472412.index
-4272525093.index
-3897361895.index
+INDEX VERSION 1.127+D:\eugene\javaworks2\.metadata\.plugins\org.eclipse.jdt.core
+2057722781.index
 2241545178.index
-586796453.index
-1693423322.index
-3067138934.index
-3658359147.index
-3308840454.index
-3255598074.index
-1644004310.index
-2781306016.index
-3466111995.index
-2391748856.index
-3564853118.index
-3649850242.index
-258782389.index
-412400697.index
-1895177227.index
-3708947538.index
 479335008.index
-3851199485.index
-3029921707.index
-2761719394.index
-2625723450.index
+3658359147.index
+281479093.index
