@@ -41,7 +41,6 @@
 
 %>
 
-
 </ul>
 <a href= "test01.jsp?id=kkt&pw=1234&name=김기태">회원 데이터 - get방식</a>
 </div>
@@ -62,22 +61,24 @@ string msg = request.getParameter("msg");
 <%
 	}
 %>
+
+<%
+
+	String id = (String) session.getAttribute("m_id");
+	if(id!=null){
+%>
+	<p><%=id%>님이 로그인하셨습니다.</p>
+	<a href="logout.jsp">로그아웃</a>
+<%
+	}else{
+
+%>
+	<p>아직 로그인 전 입니다.</p>
+<%
+	}
+%>
+
+
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
