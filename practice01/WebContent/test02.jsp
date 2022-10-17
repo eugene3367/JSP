@@ -10,16 +10,16 @@
 <%
 	request.setCharacterEncoding("UTF-8");
 	String id = request.getParameter("id");
-	String pw = request.getParameter("name");
+	String pw = request.getParameter("pw");
 	String name = request.getParameter("name");
-	String msg = "id : "+id+", pw : "+pw+", name"+name;
-%><!--  -->
-
+	String msg = "id : "+id+", pw : "+pw+", name : "+name;
+	//response.sendRedirect("index.jsp?msg="+msg);
+%>
 	<ul>
 		<li>id : <%=id %></li>
 		<li>pw : <%=pw %></li>
-		<li>name : <%=name %></li>	
+		<li>name : <%=name %></li>
 	</ul>
-	<a href=indes.jsp?>되돌아가기</a>
+	<a href="index.jsp?msg=<%=msg %>">되돌아가기</a>
 </body>
 </html>

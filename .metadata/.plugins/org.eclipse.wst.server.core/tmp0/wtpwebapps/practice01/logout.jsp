@@ -8,12 +8,10 @@
 </head>
 <body>
 <%
-/* 	session.getAttribute("m_id");
-	session.setAttribute("m_pw"); */
-	
-	session.invalidate();	//지우기
+	//session.removeAttribute("m_id");
+	//session.removeAttribute("m_pw");
+	session.invalidate();
 	response.sendRedirect("index.jsp");
-	
 %>
 </body>
 </html>
