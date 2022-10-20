@@ -9,4 +9,10 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  	
+  	<context-param>
+  		<description>전역 변수 설정</description>
+  		<param-name>userId</param-name>
+  		<param-value>kkt</param-value>
+  	</context-param>
 </web-app>
